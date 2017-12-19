@@ -17,11 +17,11 @@
 }
 
 /* The Lines Style */
-.trelabels-line .list-card-labels {
+.trelabels-lines .list-card-labels {
   margin: 0;
 }
 
-.trelabels-line .list-card-labels .card-label {
+.trelabels-lines .list-card-labels .card-label {
   float: none;
   display: block;
   height: inherit;
