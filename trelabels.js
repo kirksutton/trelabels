@@ -32,7 +32,7 @@ var popOverWrapper = `
           </a>
         </li>
         <li>
-          <a class="js-change-trelabels-style" data-style="line" href="#">
+          <a class="js-change-trelabels-style" data-style="lines" href="#">
             Lines
             <span class="sub-name">
               Full width lines with label names.
@@ -181,7 +181,7 @@ function setStyle(newStyle) {
     localStorage.setItem('trelabels.style', newStyle);
   }
 
-  $('body').removeClass('trelabels-line trelabels-sticker trelabels-tab trelabels-tag');
+  $('body').removeClass('trelabels-lines trelabels-sticker trelabels-tab trelabels-tag');
 
   if (newStyle === 'default') {
     $('.trelabels-btn').removeClass('active');
