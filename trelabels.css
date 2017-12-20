@@ -16,6 +16,51 @@
   background: rgba(0, 0, 0, 0.2);
 }
 
+
+/* The Single Line Style */ 
+/* only works for crads with 3 or less labels */
+
+.trelabels-line .list-card-labels {
+  margin: 0;
+  padding: 0;
+}
+
+.trelabels-line .list-card-labels .card-label {
+  float: left;
+  display: block;
+  height: inherit;
+  line-height: 1;
+  width: inherit;
+  max-width: 100%;
+  padding: 2px 4px;
+  border-radius: 3px;
+  margin: 0 0 3px 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  text-align: center;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+
+// one label
+.trelabels-line .card-label:first-child:nth-last-child(1) {
+  width: 100%;
+}
+
+// two labels
+.trelabels-line .card-label:first-child:nth-last-child(2),
+.trelabels-line .card-label:first-child:nth-last-child(2) ~ .card-label {
+  width: 50%;
+}
+
+// three labels 
+.trelabels-line .card-label:first-child:nth-last-child(3),
+.trelabels-line .card-label:first-child:nth-last-child(3) ~ .card-label {
+  width: 33.3333%;
+}
+
+
+
+
 /* The Lines Style */
 .trelabels-lines .list-card-labels {
   margin: 0;
