@@ -32,6 +32,14 @@ var popOverWrapper = `
           </a>
         </li>
         <li>
+          <a class="js-change-trelabels-style" data-style="line" href="#">
+            One Line
+            <span class="sub-name">
+              Labels spanning one full line.
+            </span>
+          </a>
+        </li>
+        <li>
           <a class="js-change-trelabels-style" data-style="lines" href="#">
             Lines
             <span class="sub-name">
